@@ -1,0 +1,84 @@
+<!-- Build your First Form, students can deside on the theme.
+
+Challenge 1: Use the text input to get the user name 
+Challenge 2: Use lable in appropriate places
+Challenge 3: use different form input elements
+Challenge 4: When the form is submitted, get the user's response and add the same to the body of the mail with your email id in the "to" section.
+-->
+
+<!-- your code goes below this comment -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sigin</title>
+  <style>
+    input{
+      border-radius:20px;
+      border:1px solid;
+    }
+    #k{
+      border:none;
+      background-color:yellow;
+    }
+  </style>
+</head>
+<body>
+  <div class="con">
+    <h1>sigin</h1>
+    <form action="mailto:mohnavamsi14@gmail.com" method="GET" enctype="multipart/form-data" autocomplete="on">
+          <label for="name">name:</label>
+    <br>
+      <input type="text" placeholder="name" name="name">
+      <br>
+    <label for="password">password:</label>
+    <br>
+    <input type="password" placeholder="password">
+<br>
+<label>conform password:</label>
+<br>
+<input type="password" placeholder="conform password">
+<br>
+<label for="birth">dob:</label>
+<br>
+<input type="date" name="birth">
+<br>
+country 
+<br>
+<select >
+  <option>india</option>
+    <option>chaina</option>
+    </select>
+    
+<br>
+<label for="gender"> gender:</label>
+<br>
+<input type="radio" name="g" id="m" value="male">
+<label for="m">male</label>
+<br>
+<input type="radio" name="g" id="g" value="female">
+<label for="g">female</label>
+<br>
+<input type="radio" name="g" id="n"value="not preffered">
+<label for="n">not preferred </label>
+<br>
+email
+<br>
+<input type="email" placeholder="email">
+<br>
+phone number
+<br>
+<input type="tel" placeholder="phone number">
+<br>
+<br>
+<textarea placeholder="introduceyour-self"></textarea>
+<br>
+<input type="submit" id="k">
+
+
+  </div>
+  
+</body>
+</html>
